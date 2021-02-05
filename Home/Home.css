@@ -1,0 +1,38 @@
+body{
+background-color: orchid;
+    margin: 0;
+    padding: 0;
+    animation-name: homeAnimation;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+.navigationWrapper {
+    background-color: pink;
+    width: 100%;
+    padding: 1%;
+    font-size: 30px;
+    }
+
+    a {
+        font-family: 'Hachi Maru Pop', cursive;
+        text-shadow: 2px 2px;
+        font-weight: 800;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        color:chocolate;
+        font-size: 50px;
+        transition: 0.3s;
+    }
+
+    @keyframes homeAnimation {
+        0% {background-color: cornsilk;}
+        25% {background-color: crimson;}
+        50% {background-color: cyan;}
+        75% {background-color: sienna;}
+        100% {background-color: springgreen;}
+    }
